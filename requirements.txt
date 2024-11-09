@@ -1,0 +1,5 @@
+Flask==2.3.2
+SQLAlchemy==2.0.23
+Flask-Migrate==4.0.4
+pymysql==1.0.3         # For MySQL support
+psycopg2-binary==2.9.7 # For PostgreSQL support
