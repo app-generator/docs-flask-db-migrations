@@ -1,12 +1,10 @@
-# Flask Database Migrations with SQLAlchemy & Flask-Migrate
+# [Flask Database Migrations](https://app-generator.dev/docs/technologies/flask/db-migrations.html) with SQLAlchemy & Flask-Migrate
 
-## Introduction
+**Flask-Migrate** is an extension that handles database migrations for Flask applications using **Alembic**. It works alongside **SQLAlchemy**, which is an ORM (Object Relational Mapper) that maps Python objects to database tables. Using Flask-Migrate, you can easily handle version control for your database schema, allowing for smooth database changes and rollbacks over time.
 
-**Flask-Migrate** is an extension that handles database migrations for Flask applications using **Alembic**. It works alongside **SQLAlchemy**, which is an ORM (Object Relational Mapper) that maps Python objects to database tables.
+> 👉 [Flask Database Migrations](https://app-generator.dev/docs/technologies/flask/db-migrations.html) - Complete Documentation
 
-Using Flask-Migrate, you can easily handle version control for your database schema, allowing for smooth database changes and rollbacks over time.
-
----
+<br />
 
 ## Setup for Different DBMS
 
@@ -45,7 +43,7 @@ SQLite is a lightweight, file-based database suitable for small projects or test
    migrate = Migrate(app, db)
    ```
 
----
+<br />
 
 ### MySQL
 
@@ -71,7 +69,7 @@ SQLite is a lightweight, file-based database suitable for small projects or test
    CREATE DATABASE db_name;
    ```
 
----
+<br />
 
 ### PostgreSQL
 
@@ -97,9 +95,9 @@ SQLite is a lightweight, file-based database suitable for small projects or test
    CREATE DATABASE db_name;
    ```
 
----
+<br />
 
-## Flask Migrate Full Kickoff
+## Flask Migrate Kickoff
 
 To set up **Flask-Migrate** and apply migrations to your database, follow these steps:
 
@@ -162,7 +160,7 @@ To set up **Flask-Migrate** and apply migrations to your database, follow these 
 
    Your Flask app will be running at `http://127.0.0.1:5000`.
 
----
+<br />
 
 ## Common Flask-Migrate Commands
 
@@ -173,7 +171,7 @@ To set up **Flask-Migrate** and apply migrations to your database, follow these 
 - **`flask db history`**: Shows the migration history.
 - **`flask db stamp head`**: Marks the current database as being at the latest migration.
 
----
+<br />
 
 ## Conclusion
 
@@ -184,3 +182,4 @@ By using Flask-Migrate, you can handle database schema changes in a more structu
 Feel free to explore the code in the repository and follow the steps to integrate Flask-Migrate into your own Flask applications.
 
 ---
+[Flask Database Migrations](https://app-generator.dev/docs/technologies/flask/db-migrations.html) -  Free sample provided by [App Generator](https://app-generator.dev)
